@@ -1,0 +1,61 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="search_icon_padding">12dp</dimen>
+    <dimen name="search_view_text_padding">64dp</dimen>
+
+
+    <!-- header -->
+    <dimen name="header_width">200dp</dimen>
+
+    <dimen name="title_date_time_label_text">18sp</dimen>
+
+    <dimen name="time_label_text">24sp</dimen>
+    <dimen name="time_label_AmPm">12sp</dimen>
+    <dimen name="time_label_height">32dip</dimen>
+    <dimen name="time_label_width">128dip</dimen>
+    <dimen name="time_label_min_width">170dp</dimen>
+    <dimen name="ampm_label_size">16sp</dimen>
+    <dimen name="ampm_left_padding">6dip</dimen>
+    <dimen name="extra_time_label_margin">-30dp</dimen>
+    <dimen name="separator_padding">4dip</dimen>
+
+    <dimen name="date_label_year">16sp</dimen>
+    <dimen name="date_label_month_and_day">26sp</dimen>
+
+    <dimen name="year_label_height">64dip</dimen>
+
+    <!-- Content -->
+    <dimen name="time_circle_width">320dp</dimen>
+
+    <!-- Calendar width and height -->
+    <!-- Portrait -->
+    <dimen name="calendar_width_portrait">340dp</dimen>
+    <dimen name="calendar_height_portrait">390dp</dimen>
+    <!-- Landscape -->
+    <dimen name="calendar_width_land">190dp</dimen>
+    <dimen name="calendar_height_land">220dp</dimen>
+
+    <dimen name="year_item_padding">24dp</dimen>
+
+    <dimen name="date_picker_view_animator_height">270dip</dimen>
+
+    <item name="circle_radius_multiplier" format="float" type="string" translatable="false">0.82</item>
+    <item name="circle_radius_multiplier_24HourMode" format="float" type="string" translatable="false">0.85</item>
+
+    <item name="numbers_radius_multiplier_normal" format="float" type="string" translatable="false">0.81</item>
+    <item name="numbers_radius_multiplier_inner" format="float" type="string" translatable="false">0.60</item>
+    <item name="numbers_radius_multiplier_outer" format="float" type="string" translatable="false">0.83</item>
+
+    <item name="text_size_multiplier_normal" format="float" type="string" translatable="false">0.17</item>
+    <item name="text_size_multiplier_inner" format="float" type="string" translatable="false">0.14</item>
+    <item name="text_size_multiplier_outer" format="float" type="string" translatable="false">0.11</item>
+
+    <item name="ampm_circle_radius_multiplier" format="float" type="string" translatable="false">0.19</item>
+    <item name="selection_radius_multiplier" format="float" type="string" translatable="false">0.16</item>
+
+    <dimen name="text_size_13sp">13dp</dimen>
+    <dimen name="title_bar_height">54dp</dimen>
+
+</resources>

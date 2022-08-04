@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="FACE ID">
+        <Preference
+            android:key="registerFace"
+            android:layout="@layout/layout_preference_righticon"
+            android:title="Register Face" />
+        <Preference
+            android:key="notes"
+            android:layout="@layout/layout_preference_righticon"
+            android:title="Notes" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:match="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<ImageView
+    android:id="@+id/imageview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:scaleType="centerCrop"
+    android:visibility="visible" />
+
+<org.prenes.TCFaceRecog.LockScreen.render.MissView
+    android:visibility="gone"
+    android:id="@+id/missview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/btnRetry"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/retry" />
+
+    <org.prenes.TCFaceRecog.DateTimeView
+        android:id="@+id/datetime_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"></org.prenes.TCFaceRecog.DateTimeView>
+
+    <FrameLayout
+        android:id="@+id/viewMask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"></FrameLayout>
+
+    <Button
+        android:id="@+id/btnScreenOn"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/power_button" />
+
+    <SurfaceView
+        android:id="@+id/camera_preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

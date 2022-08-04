@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- QR Code IDs -->
+    <item type="id" name="auto_focus"/>
+    <item type="id" name="decode"/>
+    <item type="id" name="decode_failed"/>
+    <item type="id" name="decode_succeeded"/>
+    <item type="id" name="encode_failed"/>
+    <item type="id" name="encode_succeeded"/>
+    <item type="id" name="quit"/>
+    <item type="id" name="restart_preview"/>
+
+    <item type="id" name="draw_rect"/>
+    <item type="id" name="server_state"/>
+    <item type="id" name="system_state"/>
+    <item type="id" name="show_meta"/>
+    <item type="id" name="show_match_result"/>
+    <item type="id" name="face_img"/>
+    <item type="id" name="enroll_process"/>
+    <item type="id" name="enroll_state"/>
+    <item type="id" name="enroll_failed"/>
+    <item type="id" name="server_connection"/>
+    <item type="id" name="init_server"/>
+    <item type="id" name="listen_server"/>
+    <item type="id" name="release_server"/>
+    <item type="id" name="start_comm"/>
+    <item type="id" name="start_cam"/>
+    <item type="id" name="loading"/>
+    <item type="id" name="detect_time"/>
+    <item type="id" name="liveness_detect"/>
+</resources>

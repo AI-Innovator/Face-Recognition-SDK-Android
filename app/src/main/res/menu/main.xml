@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      app:theme="@style/AppTheme"
+      tools:context=".MainActivity">
+
+    <!--item
+        android:id="@+id/action_change_mode"
+        android:icon="@mipmap/ic_settings"
+        android:orderInCategory="100"
+        android:title="@string/abc_search_hint"
+        app:showAsAction="always" /-->
+
+    <item
+        android:id="@+id/action_add_person"
+        android:icon="@mipmap/ic_group"
+        android:orderInCategory="100"
+        android:title="@string/abc_search_hint"
+        app:showAsAction="always" />
+
+</menu>
